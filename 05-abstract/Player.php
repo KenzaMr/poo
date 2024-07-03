@@ -93,8 +93,5 @@ abstract class Player
         return $this;
     }
 
-    public function hit(): void
-    {
-        $this->life=$this->life - 10;
-    }
+    abstract protected function hit();
 }
