@@ -1,4 +1,4 @@
-<!-- Classe Abstraite Vehicule
+Classe Abstraite Vehicule
 Créer une classe abstraite Vehicule avec les propriétés et méthodes suivantes :
 
 Propriété protégée $nbTest initialisée à 100.
@@ -45,4 +45,4 @@ Obliger les classes Peugeot et Renault à implémenter cette interface.
 Peugeot doit avoir une méthode start qui retourne la chaîne "XXX a demarré la Renault".
 Renault doit avoir une méthode start qui retourne la chaîne "XXX a demarré la Peugeot".
 
-Enfin, créer une instance de User et démarrer les véhicules Peugeot et Renault en utilisant la méthode start de l'interface Engine. -->
+Enfin, créer une instance de User et démarrer les véhicules Peugeot et Renault en utilisant la méthode start de l'interface Engine.
