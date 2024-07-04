@@ -46,3 +46,5 @@ Peugeot doit avoir une méthode start qui retourne la chaîne "XXX a demarré la
 Renault doit avoir une méthode start qui retourne la chaîne "XXX a demarré la Peugeot".
 
 Enfin, créer une instance de User et démarrer les véhicules Peugeot et Renault en utilisant la méthode start de l'interface Engine.
+
+Une voiture peut avoir un  accident et si elle a un accident le user est blessé 

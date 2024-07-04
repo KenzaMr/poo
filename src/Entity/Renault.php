@@ -1,6 +1,9 @@
 <?php
-require_once './Vehicule.php';
-require_once './Engine.php';
+namespace App\Entity;
+
+use App\Abstract\Vehicule;
+use App\Utilitaire\Engine;
+use App\Entity\User;
 
 class Renault extends Vehicule implements Engine
 {
@@ -10,7 +13,7 @@ class Renault extends Vehicule implements Engine
      */
     private string $carburant;
 
-    public function carburant()
+    public function carburant():string
     {
         return 'diesel';
     }

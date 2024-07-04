@@ -1,6 +1,11 @@
 <?php
-require_once './Vehicule.php';
-require_once './Engine.php';
+
+namespace App\Entity;
+
+use App\Entity\User;
+use App\Abstract\Vehicule;
+use App\Utilitaire\Engine;
+
 class Peugeot extends Vehicule implements Engine
 {
     /**
@@ -8,7 +13,7 @@ class Peugeot extends Vehicule implements Engine
      */
     private string $carburant;
 
-    public function carburant()
+    public function carburant(): string
     {
         return 'essence';
     }
@@ -19,6 +24,6 @@ class Peugeot extends Vehicule implements Engine
     }
     public function start(User $user): string
     {
-        return"{$user->getPseudo()} a demarré la Peugeot";
+        return "{$user->getPseudo()} a demarré la Peugeot";
     }
 }
