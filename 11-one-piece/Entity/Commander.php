@@ -1,8 +1,9 @@
 <?php
+require_once './Entity/Revolutionary.php';
 class Commander extends Revolutionary
 {
     public function leadRevolution(): string
     {
-        return 'Je ne connais pas One Piece,lisez des livres!!!(HungerGames) ';
+        return "$this->name est le plus ancien revolutionnaire de tous les temps";
     }
 }
