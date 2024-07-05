@@ -1,5 +1,8 @@
 <?php
-abstract class Bd
+
+namespace App\Entity;
+
+ class Bd
 {
     /**
      * @var string

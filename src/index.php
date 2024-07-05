@@ -1,14 +1,12 @@
 <?php
-require_once './Abstract/Vehicule.php';
-require_once './Utilitaire/Engine.php';
-require_once './Entity/Renault.php';
-require_once './Entity/Peugeot.php';
-require_once './Entity/User.php'; 
+require_once './Utilitaire/Autoloader.php';
 
 use App\Entity\Peugeot;
 use App\Entity\Renault;
 use App\Entity\User;
+use App\Utilitaire\Autoloader;
 
+Autoloader::autoload();
 
 $utilisateur=new User();
 $utilisateur->setPseudo('Oura');
